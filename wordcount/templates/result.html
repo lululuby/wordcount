@@ -1,0 +1,9 @@
+<h2>전체 본문</h2>
+{{full}}
+<h2>당신이 입력한 택스트 단어 수 : {{total}}</h2>
+<h1>쓴 단어들 : </h1>
+
+{% for word, howmany in dictionary %}
+{{word}} : {{howmany}}
+<br>
+{%endfor%}
